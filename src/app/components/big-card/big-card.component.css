@@ -1,8 +1,4 @@
 .container_big_card{
-  border: solid 1px white;
-  margin-left: 1.5rem;
-  margin-right: 1.5;
-  padding: 2rem;
   width: 650px;
   height: 700px;
   display: flex;
