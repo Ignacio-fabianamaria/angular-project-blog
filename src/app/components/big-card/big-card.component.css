@@ -1,6 +1,6 @@
 .container_big_card{
   width: 650px;
-  height: 700px;
+  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
