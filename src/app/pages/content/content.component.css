@@ -1,0 +1,32 @@
+.container_contente{
+ 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  margin-top: 2rem;
+  flex-direction: column;
+  align-items: center;
+}
+.content_cover > img{
+  border: 3px solid #878686;
+  border-radius: 5px;
+  width: 100%;
+  width: 500px;
+  min-width: 500;
+  height: 300px;
+}
+.content_title{
+  text-align: center;
+}
+.content_title > hr{
+  margin-bottom: .5rem;
+}
+.content_title > h1{
+  margin-bottom: .2rem;
+}
+.content_description{
+  margin-top: 1.5rem;
+}
+.content_description > p{
+  color: #8e8e8e;
+}
