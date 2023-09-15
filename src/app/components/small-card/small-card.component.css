@@ -8,9 +8,11 @@
   flex-direction: row;
 }
 .small_card_photo >img{
-width: 300px;
-min-width: 300px;
+width: 250px;
+min-width: 250px;
+height: 180px;
 margin-right: 2rem;
+border-radius: 5px;
 }
 .small_card_title{
   display: flex;
