@@ -2,7 +2,7 @@
 
 <div align="center">
   
-![Art](art.gif)
+![Art](art.png)
    
 </div> 
 
