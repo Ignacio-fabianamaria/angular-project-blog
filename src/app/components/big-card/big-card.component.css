@@ -12,9 +12,12 @@
 }
 .big_card_description{
   margin-top: 1rem;
+  text-align: justify;
+  width: 500px;
 }
 .big_card_description > p > a{
 color: gray;
+
 }
 .big_card_photo > img{
 width: 100%;

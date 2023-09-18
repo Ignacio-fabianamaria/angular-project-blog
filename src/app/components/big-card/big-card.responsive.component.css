@@ -1,0 +1,26 @@
+
+@media screen and (max-width:600px) {
+  .container_big_card{
+    width: 180px;
+    height: 550px;
+   
+  }
+  .big_card_description{
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  text-align: justify;
+  width: 300px;
+  }
+  .big_card_title > h1{
+    font-size: 1.5rem;
+    margin-left: 1.5rem;
+  }
+  .big_card_photo > img{
+    width: 100%;
+    min-width: 300px;
+    border-radius: 5px;
+    margin-left: 1.5rem;
+    }
+}
+
+

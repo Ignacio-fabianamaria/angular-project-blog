@@ -5,3 +5,16 @@
   justify-content: space-around;
 
 }
+
+@media screen and (max-width:420px) {
+.articles{
+  display: flex;
+  flex-direction: column;
+}
+}
+@media screen and (max-width:912px) {
+  .articles{
+    display: flex;
+    flex-direction: column;
+  }
+}

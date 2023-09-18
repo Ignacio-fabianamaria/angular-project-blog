@@ -1,5 +1,5 @@
 .container_contente{
- 
+
   width: 100%;
   height: 100vh;
   display: flex;
@@ -26,6 +26,8 @@
 }
 .content_description{
   margin-top: 1.5rem;
+  width: 700px;
+  text-align: justify ;
 }
 .content_description > p{
   color: #8e8e8e;

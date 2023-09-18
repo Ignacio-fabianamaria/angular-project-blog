@@ -5,7 +5,7 @@ import { dataFake } from 'src/app/data/dataFake';
 @Component({
   selector: 'app-content',
   templateUrl: './content.component.html',
-  styleUrls: ['./content.component.css']
+  styleUrls: ['./content.component.css', './content.responsive.component.css']
 })
 export class ContentComponent implements OnInit {
   @Input()
@@ -15,6 +15,8 @@ export class ContentComponent implements OnInit {
   @Input()
   contentDescription = ''
   private id:string | null = '0'
+  @Input()
+  linkToVisit = ''
 
   constructor(
     private route:ActivatedRoute
@@ -34,6 +36,7 @@ export class ContentComponent implements OnInit {
     this.contentTitle = result.title
     this.contentDescription = result.description
     this.photoCover = result.photoCover
+    this.linkToVisit = result.linkToVisit
   }
 
 }
