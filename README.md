@@ -1,5 +1,11 @@
 # FABY'S BLOG PROJECT
 
+<div align="center">
+  
+![Art](art.gif)
+   
+</div> 
+
 ## Descrição do Projeto
 
 O **FABY'S BLOG PROJECT** é um projeto criado com Angular, inspirado em um layout da plataforma Dribbble. Ele tem como objetivo ser um blog pessoal para compartilhar projetos. Este projeto foi desenvolvido como parte da aplicação prática dos conteúdos iniciais do curso de Angular no bootcamp Santander - DIO.
