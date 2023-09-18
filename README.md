@@ -1,27 +1,21 @@
-# AngularBlog
+# FABY'S BLOG PROJECT
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.2.
+## Descrição do Projeto
 
-## Development server
+O **FABY'S BLOG PROJECT** é um projeto criado com Angular, inspirado em um layout da plataforma Dribbble. Ele tem como objetivo ser um blog pessoal para compartilhar projetos. Este projeto foi desenvolvido como parte da aplicação prática dos conteúdos iniciais do curso de Angular no bootcamp Santander - DIO.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Funcionalidades
 
-## Code scaffolding
+O projeto demonstra a aplicação dos seguintes conceitos do Angular:
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+1. **Componentização:** O projeto é composto por quatro componentes principais:
+   - **Menu Bar:** A barra de menu superior para navegação.
+   - **Menu Title:** O título exibido na página.
+   - **Big Card:** Um componente para mostrar projetos em destaque.
+   - **Small Card:** Um componente para exibir projetos menores.
 
-## Build
+2. **Ciclo de Vida:** O projeto utiliza o ciclo de vida dos componentes para garantir que as informações sejam carregadas e atualizadas de forma eficiente.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+3. **Rotas:** O aplicativo possui duas rotas principais:
+   - **Home:** Agrega o conteúdo principal, renderizando os quatro componentes.
+   - **Content:** Exibe a página de detalhes de um projeto individual, que é preenchida com dados de um banco de dados local chamado `dataFake`.
